@@ -1,0 +1,14 @@
+[default]
+
+SQLALCHEMY_DATABASE_URI = 'sqlite:///data.db'
+TITLE = "Pydaria"
+SECRET_KEY = "advahjbvidvnlea"
+EXTENSIONS = [
+"ext.appearance",
+"ext.database",
+"ext.auth",
+"ext.admin",
+"ext.commands",
+"blueprints.webui",
+"blueprints.restapi"
+]
