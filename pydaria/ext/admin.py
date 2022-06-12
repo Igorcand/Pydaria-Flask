@@ -5,7 +5,9 @@ from flask_simplelogin import SimpleLogin, login_required
 from werkzeug.security import generate_password_hash
 
 from ext.database import db
-from models import  Product, User
+from models.product import  Product
+from models.user import  User
+
 
 AdminIndexView._handle_view = login_required(AdminIndexView._handle_view)
 sqla.ModelView._handle_view = login_required(sqla.ModelView._handle_view)

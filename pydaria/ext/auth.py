@@ -1,16 +1,8 @@
-# from flask_simplelogin import SimpleLogin, login_required
-
-# def verify_login(user):
-#     return user.get('username') == 'admin' and user.get('password') == '12345'
-
-# def init_app(app):
-#     SimpleLogin(app, login_checker=verify_login)
-
 
 from flask_simplelogin import SimpleLogin
 from werkzeug.security import check_password_hash, generate_password_hash
 from ext.database import db
-from models import User
+from models.user import User
 
 
 def verify_login(user):
