@@ -66,6 +66,10 @@ To access the swagger documantation and find exemples, models and request you ha
 git clone [https://github.com/Igorcand/Form-Lexus.git](https://github.com/Igorcand/Pydaria-Flask)
 
 # Enter the folder 
+Pydaria-Flask
+
+# Install modules
+pip install -r requirements.txt
 
 # Execute the file 
 python pydaria/app.py
