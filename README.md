@@ -2,7 +2,7 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Igorcand/Pydaria-Flask/blob/master/LICENSE) 
 
 # About the Project
-FORM LEXUS WEBSITE/API  is a simple aplication developed using the Python's Framework Flask and the simple templates with HTML and CSS. The programm was developed using like reference a youtube video about Architecture Flask using Blueprints and Factories.
+PyDARIA WEBSITE/API  is a simple aplication developed using the Python's Framework Flask and the simple templates with HTML and CSS. The programm was developed using like reference a youtube video about Architecture Flask using Blueprints and Factories.
 
 ## Layout 
 When the code is runned, this is a home page without project on database
