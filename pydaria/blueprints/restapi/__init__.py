@@ -1,12 +1,13 @@
 from flask import Blueprint
-from flask_restful import Api
+from flask_restx import Api
 
-#from .resources import ProductResource, ProductItemResource
 from .resources.product import ProductResource, ProductItemResource
+from .resources.product import api as ns1
 
 
 bp = Blueprint('restapi', __name__, url_prefix='/api/v1')
-api = Api(bp)
+api = Api(bp, version='1.0',title='Pydaria API',description='A simple pydaria API',doc = '/docs', default_label='Everything about your favorite Pydaria', default = 'Pydaria', license='license')
+api.add_namespace(ns1)
 
 
 def init_app(app):
