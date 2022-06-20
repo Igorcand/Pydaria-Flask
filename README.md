@@ -11,9 +11,12 @@ When the code is runned, this is a home page without project on database
 
 
 ## Admin Login 
-To register some product on database, you can login on Admin Page and enter using the default user:
-- name = Admin
+To register some product on database, you can login on Admin Page and acess this page using this url:
+- http://localhost/admin
+Enter using the default user:
+- name = admin
 - password = 12345
+
 
 
 ![Mobile 1](https://github.com/Igorcand/Pydaria-Flask/blob/master/assets/homeadmin.png) 
@@ -31,8 +34,8 @@ Now you have products on your database showing on homepage
 
 ## REST API
 The application have other form to use. To use REST API and use the simple request GET have two url's
-- http://localhost/api/v1/products/
-- http://localhost/api/v1/products/{id}
+- http://localhost/api/v1/product/
+- http://localhost/api/v1/product/{id}
 
 
 ![Mobile 1](https://github.com/Igorcand/Pydaria-Flask/blob/master/assets/api.png) 
@@ -40,7 +43,7 @@ The application have other form to use. To use REST API and use the simple reque
 
 ## SWAGGER DOC
 To access the swagger documantation and find exemples, models and request you have to acces this url:
-- http://localhost/api/v1/docs/
+- http://localhost/api/v1/docs
 
 ![Mobile 1](https://github.com/Igorcand/Pydaria-Flask/blob/master/assets/docs.png) 
 
